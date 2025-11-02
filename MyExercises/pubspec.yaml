@@ -1,0 +1,9 @@
+name: MyExercises
+description: Challenges resueltos usando Dart.
+version: 1.0.0
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  characters: ^1.3.0

@@ -45,7 +45,7 @@ void main() {
     if (widthInput != null && widthInput > 0) break;
     print("-- Invalid width. Please enter a positive number.");
   }
-  userTryToSquare.width = widthInput!;
+  userTryToSquare.width = widthInput;
 
   double? heightInput;
   print("-- Please enter a height: ");
@@ -57,7 +57,7 @@ void main() {
     if (heightInput != null && heightInput > 0) break;
     print("-- Invalid height. Please enter a positive number.");
   }
-  userTryToSquare.height = heightInput!;
+  userTryToSquare.height = heightInput;
 
   while (!userTryToSquare.isSquare()) {
     print("");
@@ -75,7 +75,7 @@ void main() {
       print("");
       print("-- Invalid height. Please enter a positive number.");
     }
-    userTryToSquare.height = heightInput!;
+    userTryToSquare.height = heightInput;
   }
 
   print("");
